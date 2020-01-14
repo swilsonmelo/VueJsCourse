@@ -1,2 +1,2 @@
 # VueJsCourse
-repository for the VueJs course
+Repository for the VueJs course
