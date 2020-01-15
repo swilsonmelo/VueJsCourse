@@ -5,7 +5,7 @@ $ npm -g install @vue/cli
 
 ```
 
-createProyect
+Create a Proyect
 ```sh
 $ vue create (proyectName)
 
