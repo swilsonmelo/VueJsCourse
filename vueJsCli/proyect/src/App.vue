@@ -1,17 +1,20 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="container">    
+    <Cabecera> </Cabecera>
+    <lista></lista>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import Cabecera from './components/Cabecera.vue'
+import Lista from './components/Lista'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Cabecera,
+    Lista
   }
 }
 </script>
